@@ -4,7 +4,15 @@ abi = JSON.parse('[{"constant":false,"inputs":[{"name":"level","type":"uint8"}],
 Contract = web3.eth.contract(abi);
 // In your nodejs console, execute contractInstance.address to get the address at which the contract is deployed and change the line below to use your deployed address
 contractInstance = Contract.at('0x2a9c1d265d06d47e8f7b00ffa987c9185aecf672');
+
+/* Commands for Cmd Line
+
+abiDefinition = JSON.parse(compiledCode.contracts[':Koch'].interface)
+Contract = new web3.eth.Contract(abiDefinition)
+byteCode = compiledCode.contracts[':Koch'].bytecode;
+Contract.deploy({data: byteCode, arguments: []});
 levelList = [];
+*/
 
 function addLevel() {
   var level = x;
