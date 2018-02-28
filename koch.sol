@@ -27,9 +27,9 @@ contract Koch {
         uint32[] memory A1;
         uint32[] memory B1;
         uint32[] memory C1;
-        A[0] = 50000;
-        A[1] = 150000;
-        B[0] = 270000;
+        A[0] = 50000;  // Solidity does not yet support floating point or double type variables, only ints.
+        A[1] = 150000; // To get around this, we're using uint32 data types multiplied by 1000 and will divide
+        B[0] = 270000; // them by 1000 after converting them to floats in the JS.
         B[1] = 490000;
         C[0] = 500000;
         C[1] = 150000;
