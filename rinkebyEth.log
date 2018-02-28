@@ -1,0 +1,21 @@
+INFO [02-27|18:17:45] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [02-27|18:17:45] Starting peer-to-peer node               instance=Geth/v1.8.1-stable/darwin-amd64/go1.10
+INFO [02-27|18:17:45] Allocated cache and file handles         database=/Users/joshpayne1/Library/Ethereum/rinkeby/geth/chaindata cache=768 handles=128
+INFO [02-27|18:17:45] Writing custom genesis block 
+INFO [02-27|18:17:45] Persisted trie from memory database      nodes=355 size=65.27kB time=974.078µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-27|18:17:45] Initialised chain configuration          config="{ChainID: 4 Homestead: 1 DAO: <nil> DAOSupport: true EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 1035301 Engine: clique}"
+INFO [02-27|18:17:45] Initialising Ethereum protocol           versions="[63 62]" network=4
+INFO [02-27|18:17:45] Loaded most recent local header          number=0 hash=6341fd…67e177 td=1
+INFO [02-27|18:17:45] Loaded most recent local full block      number=0 hash=6341fd…67e177 td=1
+INFO [02-27|18:17:45] Loaded most recent local fast block      number=0 hash=6341fd…67e177 td=1
+INFO [02-27|18:17:45] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-27|18:17:45] Starting P2P networking 
+INFO [02-27|18:17:47] UDP listener up                          self=enode://c161e15817c236f4ddf0f85a5b1e0f39cf8cb7e0c271d570757848d8286032cc5bc601b7ebde3346a21c5d27c18f6ff60196e6232c6d3776ee32fb0ad7af6263@[::]:30303
+INFO [02-27|18:17:47] RLPx listener up                         self=enode://c161e15817c236f4ddf0f85a5b1e0f39cf8cb7e0c271d570757848d8286032cc5bc601b7ebde3346a21c5d27c18f6ff60196e6232c6d3776ee32fb0ad7af6263@[::]:30303
+INFO [02-27|18:17:47] IPC endpoint opened                      url=/Users/joshpayne1/Library/Ethereum/rinkeby/geth.ipc
+INFO [02-27|18:18:29] IPC endpoint closed                      endpoint=/Users/joshpayne1/Library/Ethereum/rinkeby/geth.ipc
+INFO [02-27|18:18:29] Blockchain manager stopped 
+INFO [02-27|18:18:29] Stopping Ethereum protocol 
+INFO [02-27|18:18:29] Ethereum protocol stopped 
+INFO [02-27|18:18:29] Transaction pool stopped 
+INFO [02-27|18:18:29] Database closed                          database=/Users/joshpayne1/Library/Ethereum/rinkeby/geth/chaindata
