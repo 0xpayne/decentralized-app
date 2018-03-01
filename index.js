@@ -57,8 +57,8 @@ function DrawLine(a, b, c) { // Draw each line in our Line[]
     } else {
       context.lineWidth = 1;
     }
-    context.moveTo(a[0], a[1]);
-    context.lineTo(b[0], b[1]);
+    context.moveTo(a[0]/1000, a[1]/1000); // factor in for multiplication due to int vs float type in Solidity
+    context.lineTo(b[0]/1000, b[1]/1000);
     context.stroke();
     context.closePath();
 }
