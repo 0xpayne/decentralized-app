@@ -7,7 +7,7 @@ contract Koch {
         string c;
     }
     
-    mapping(uint => Line[]) public kocholdStarturve;
+    mapping(uint => Line[]) public kochCurve;
     
     uint8[] public levels;
     Line[] lines;
@@ -28,7 +28,7 @@ contract Koch {
         uint32[] memory newEnd1;
         uint32[] memory oldStart1;
         newStart[0] = 50000;  // Solidity does not yet support floating point or double type variables, only ints.
-        newStart[1] = 150000; // To get around this, we're using uint32 data types multiplied by 1000 and will divide
+        newStart[1] = 150000; // To get around this, I'm using uint32 data types multiplied by 1000 and will divide
         newEnd[0] = 270000; // them by 1000 after converting them to floats in the JS.
         newEnd[1] = 490000;
         oldStart[0] = 500000;
